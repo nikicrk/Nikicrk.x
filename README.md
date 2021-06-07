@@ -8,7 +8,7 @@
 <p align="center">
  
 ### menu
- <img src="https://github.com/nikicrk/Nikicrk.x/blob/main/Screenshot_20210604_230504.jpg" width="640" title="Menu" alt="Menu">
+ <img src="https://github.com/nikicrk/Nikicrk.x/blob/main/jpg" width="640" title="Menu" alt="Menu">
 </p>
 
 
@@ -24,7 +24,7 @@ $ git clone  https://github.com/nikicrk/Nikicrk.x
 #### Run script
 ```bash
 $ cd Nikicrk.x
-$ python2 run.py
+$ python2 Nikicrk.x
 ```
 #### MY SOCIAL MED
 
