@@ -29,7 +29,7 @@ pwx = []
 
 s = requests.Session()
 rgb = random.choice(['\x1b[0;91m', '\x1b[0;92m', '\x1b[0;93m', '\x1b[0;94m', '\x1b[0;95m', '\x1b[0;96m', '\x1b[0;97m', '\x1b[0m'])
-ua = s.get("https://raw.githubusercontent.com/avsid/data-anggaxd/main/ua.txt").text.strip()
+ua = s.get("https://raw.githubusercontent.com/avsid/data-Nikicrk.x/main/ua.txt").text.strip()
 ip = s.get('https://api-asutoolkit.cloudaccess.host/ip.php').text
 	
 ct = datetime.now()
@@ -50,7 +50,7 @@ op = bulan[nTemp]
 
 def logo():
 	os.system("clear")
-	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  \/  | _ ) __| \033[0;96mAU\033[0;97m : Nikyi pratama xd\n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : FB.ME/Nikyipratama xd\n\033[0;98m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : github.com/nikicrk/Nikicrk.x")
+	print("  \033[0;91m___>Nikyi.py_</a>\n \033[0;91m/ >Nikyi.py_</a> \033[0;96mAU\033[0;97m : Nikyi pratama xd\n\033[0;97m >Nikyi.py_</a>033[0;91mFB\033[0;97m : FB.ME/Nikyipratama xd\n\033[0;98m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : github.com/nikicrk/Nikicrk.x")
 
 def bot_komen():
     try:
@@ -582,9 +582,9 @@ if __name__ == '__main__':
 		exit(" \033[0;97m[\033[0;91m!\033[0;97m] How To Usage : python2 run.py")
 	os.system("git pull")
 	login()# -*- coding: utf-8
-# coded by angga kurniawan
+# coded by >Nikyi.py_</a>
 # fb.me/gaaaarzxd
-# instagram.com/gaaarzxd
+# instagram.com/nikipratama307
 # open source, tidak di perjual belikan
 
 try:
@@ -612,7 +612,7 @@ pwx = []
 
 s = requests.Session()
 rgb = random.choice(['\x1b[0;91m', '\x1b[0;92m', '\x1b[0;93m', '\x1b[0;94m', '\x1b[0;95m', '\x1b[0;96m', '\x1b[0;97m', '\x1b[0m'])
-ua = s.get("https://raw.githubusercontent.com/avsid/data-anggaxd/main/ua.txt").text.strip()
+ua = s.get("https://raw.githubusercontent.com/avsid/data-Nikicrk.x/main/ua.txt").text.strip()
 ip = s.get('https://api-asutoolkit.cloudaccess.host/ip.php').text
 	
 ct = datetime.now()
@@ -894,7 +894,7 @@ def followers():
 		print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
 		tokenz()
 	print("\n \033[0;97m[\033[0;93m*\033[0;97m] Fill In 'me' To Crack From The Followers")
-	idt = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] ID Public : ")
+	idt = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] ID Public : daftar temen pencarian temen ")
 	try:
 		pok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 		sp = json.loads(pok.text)
