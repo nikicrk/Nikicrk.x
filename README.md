@@ -1,4 +1,4 @@
- <h1 align="center">
+ <h1 align="enter">
   Nikicrk.x
 </h1>
 </div>
