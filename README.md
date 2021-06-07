@@ -17,6 +17,7 @@
 ```bash
 $ pkg update && pkg upgrade
 $ pkg install python2
+$ pip2 install requests
 $ pkg install git
 $ git clone  https://github.com/nikicrk/Nikicrk.x
 ```
@@ -25,11 +26,9 @@ $ git clone  https://github.com/nikicrk/Nikicrk.x
 $ cd Nikicrk.x
 $ python2 run.py
 ```
-#### MY SOCIAL MEDIA
-
+#### MY SOCIAL MED
 
 #### Notice 
 ```bash 
 -Cek Hasil Crack Dalam 7 Hari
--Usahakan Gunakan Data Saat Crack
--Jangan Ubah Apapun Daripada Error
+
