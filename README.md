@@ -24,7 +24,7 @@ $ git clone  https://github.com/nikicrk/Nikicrk.x
 ```bash
 $ cd Nikicrk.x
 $ pip2 install requests
-$ python2 run.py
+$ python2 Nikicrk.x
 ```
 #### MY SOCIAL MEDIA
 
